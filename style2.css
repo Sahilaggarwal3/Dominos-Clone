@@ -1,0 +1,46 @@
+.test {
+    position: relative;
+    bottom: 520px;
+    position: fixed;
+    box-shadow: 0 4px 200px 0 #0d4888;
+    z-index: 999;
+    animation: slideUpFromBottom 0.5s ease forwards;
+}
+
+@keyframes slideUpFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.test .header-bg img {
+    width: 85%;
+    height: fit-content;
+    position: relative;
+    top: 180px;
+}
+
+.test .header-content {
+    margin-bottom: -120px;
+}
+
+.test .header-content img {
+    visibility: hidden;
+}
+
+.mt {
+    margin-top: 420px;
+}
+
+.apparent {
+    display: block;
+}
+
+
+
+
+
